@@ -2,7 +2,6 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import signup from '../views/signup.vue'
 import login from '../views/login.vue'
-import Demo from '../views/Demo.vue'
 import category from '../views/category.vue'
 import instruction from '../views/instruction.vue'
 import store from '../store'
@@ -39,11 +38,7 @@ const routes = [
     name: 'signup',
     component: signup
   },
-  {
-    path: '/Demo/:id',
-    name: 'Demo',
-    component: Demo
-  },
+ 
   {
     path: '/dashboard/:id',
     name: 'dashboard',
